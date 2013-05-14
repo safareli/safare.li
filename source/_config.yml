@@ -1,0 +1,28 @@
+title: "safare.li"
+description: "I'm Irakli Safareli Web & Android Developer and it's my blog"
+author: Irakli Safareli
+author_email: i@safare.li
+
+# The directory for category index pages. Change it to something else if
+# for example you want links like /categories/category1 instead of /category1
+category_dir: /
+root:
+url: "http://localhost"
+subscribe_rss: /atom.xml
+paginate: 10
+
+plugins: ./plugins
+source: ./source
+destination: ./public_html/
+
+# exclude: [
+# 		node_modules,
+# 		Gruntfile.js,
+# 		package.json,
+# 		Gemfile,
+# 		Gemfile.lock,
+# 	]
+
+markdown: rdiscount
+permalink: pretty
+pygments: true

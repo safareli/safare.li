@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[safare.li]]></title>
+  <link href="http://localhost/atom.xml" rel="self"/>
+  <link href="http://localhost/"/>
+  <updated>2013-05-15T00:38:48+04:00</updated>
+  <id>http://localhost/</id>
+  <author>
+    <name><![CDATA[Irakli Safareli]]></name>
+    
+  </author>
+  <generator uri="http://jekyllrb.com/">jekyll</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello from GDG Tbilis]]></title>
+    <link href="http://localhost/2013/05/09/hello-world/"/>
+    <updated>2013-05-09T00:00:00+04:00</updated>
+    <id>http://localhost/2013/05/09/hello-world</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<h2>GDG Tbilis</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ipsum Dolor Sit Amet consectetur]]></title>
+    <link href="http://localhost/2013/05/08/Ipsum/"/>
+    <updated>2013-05-08T00:00:00+04:00</updated>
+    <id>http://localhost/2013/05/08/Ipsum</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<h2>Pellentesque sollicitudin</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dolor Sit Amet consectetur]]></title>
+    <link href="http://localhost/2013/04/08/dolor/"/>
+    <updated>2013-04-08T00:00:00+04:00</updated>
+    <id>http://localhost/2013/04/08/dolor</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<h2>Pellentesque sollicitudin</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sit Dolor Amet consectetur]]></title>
+    <link href="http://localhost/2013/03/18/sit/"/>
+    <updated>2013-03-18T00:00:00+04:00</updated>
+    <id>http://localhost/2013/03/18/sit</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<h2>Pellentesque sollicitudin</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lorem Ipsum Dolor Sit Amet]]></title>
+    <link href="http://localhost/2013/03/08/Lorem/"/>
+    <updated>2013-03-08T00:00:00+04:00</updated>
+    <id>http://localhost/2013/03/08/Lorem</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<h2>Pellentesque sollicitudin</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[consectetur Sit Dolor Amet]]></title>
+    <link href="http://localhost/2013/02/28/consectetur/"/>
+    <updated>2013-02-28T00:00:00+04:00</updated>
+    <id>http://localhost/2013/02/28/consectetur</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<h2>Pellentesque sollicitudin</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Amet Sit Dolor consectetur]]></title>
+    <link href="http://localhost/2013/02/08/amet/"/>
+    <updated>2013-02-08T00:00:00+04:00</updated>
+    <id>http://localhost/2013/02/08/amet</id>
+    <content type="html"><![CDATA[<p>consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.s</p>
+
+<p><figure class='code'><figcaption><span>avasome style (style.css)</span><a href='http://sdsd.com'>sdasd</a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">section</span><span class="nc">.main.page-log</span> <span class="nt">article</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">overflow</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">padding-left</span><span class="o">:</span> <span class="m">6em</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">1.5em</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="nt">section</span><span class="nc">.main.page-log</span> <span class="nt">article</span> <span class="nt">header</span> <span class="nt">a</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">display</span><span class="o">:</span> <span class="k">inline</span><span class="o">-</span><span class="k">block</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">color</span><span class="o">:</span> <span class="m">#f56b61</span><span class="p">;</span>
+</span><span class='line'>  <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">transition</span><span class="o">:</span> <span class="k">text-shadow</span> <span class="m">0.3s</span><span class="p">;</span>
+</span><span class='line'>  <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">transition</span><span class="o">:</span> <span class="k">text-shadow</span> <span class="m">0.3s</span><span class="p">;</span>
+</span><span class='line'>  <span class="o">-</span><span class="n">o</span><span class="o">-</span><span class="n">transition</span><span class="o">:</span> <span class="k">text-shadow</span> <span class="m">0.3s</span><span class="p">;</span>
+</span><span class='line'>  <span class="n">transition</span><span class="o">:</span> <span class="k">text-shadow</span> <span class="m">0.3s</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">text-shadow</span><span class="o">:</span> <span class="m">0</span> <span class="m">1px</span> <span class="n">rgba</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">85</span><span class="p">)</span><span class="o">,</span> <span class="m">0</span> <span class="m">-1px</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">15</span><span class="p">);</span>
+</span><span class='line'>  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.1em</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">line-height</span><span class="o">:</span> <span class="m">1.3em</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<h2>Pellentesque sollicitudin</h2>
+
+<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent tacsdsditi sociosqu ad litora torquent per conubianostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,78 @@
+header.main
+	background-color: $header-background
+	position: relative
+	padding-top: 12em
+	color: $header-color
+	+box-shadow(0 1px fade-out($header-color,.3), 0 2px lighten($primary-color,10%))
+	// +text-shadow(0 -1px fade-out(black, 0.5),0 1px white)
+	img
+		+user-select
+		margin: -6em 0 0 -10em
+		height: 10em
+		width: 10em
+		position: absolute
+		left: 50%
+		top: 50%
+		+border-radius(50%)
+		+box-shadow(0 0 0 1px $header-color,0 1px 0 1px lighten($primary-color,10%))
+		&:hover
+			+box-shadow(0 0 0.5em 0.2em $header-color) 
+	.developer
+		&,& *
+			+no-interact
+		position: absolute
+		top: 50%
+		left: 50%
+		margin: -7em 0 0 -0.5em 
+		list-style: none
+		width: 4em
+		padding: 0 
+		&:after
+			content: attr(data-text)
+			position: absolute
+			left: 100%
+			top: 50%
+			line-height: 1em
+			padding: 0 0 0 2em
+			margin-top: -0.35em
+		&:before
+			content: attr(data-symbol)
+			font-size: 4em
+			font-weight: 100
+			padding: 0 0 0 0.1em
+			position: absolute
+			left: 100%
+			top: 50%
+			line-height: 1em
+			margin-top: -0.5em - 0.045em //TODO need to remove "- 0.045em" nd use deffenrent font
+		li
+			padding: 0
+			line-height: 3em
+			text-align: right
+	.social
+		display: none
+	nav.main
+		//jer aq araperia
+		ul
+			list-style: none
+			padding: 0
+			text-align: center
+			li
+				display: inline-block 
+				& + li
+					margin-left: 0.6em
+				a
+					+transition(color .4s,text-shadow .4s)
+					font-size: 2em 
+					display: block
+					line-height: 1.5em
+					color: $header-color 
+					+text-shadow(0 -1px fade-out(black, 0.5),0 1px white)
+					text-decoration: none 
+					position: relative
+				&:hover
+					a
+						// top: -1
+						+text-shadow(0 -1px fade-out(black, 0.5),0 1px white, 0 0 5px $header-color-hover)
+						color: $header-color-hover
+	

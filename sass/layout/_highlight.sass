@@ -1,0 +1,40 @@
+.highlight
+	margin: 0 0 1em
+	line-height: 1.3em
+	border-radius:  0 0 4px 4px
+	overflow: auto
+	border: 1px solid $highlight-header-border
+	border-top: none
+	background-color: #fdf6e3
+	+solarized-light()
+	&::-webkit-scrollbar
+		height: .5em
+		background: $highlight-scroll-background
+	&::-webkit-scrollbar-thumb
+		background: $highlight-scroll-thumb
+		border-radius: 4px
+		&:hover
+			background: $scroll-thumb-hover
+	.line
+		white-space: pre
+	.line-number
+		width: 100%
+		display: inline-block
+	.gutter
+		padding: 1em .25em 1em 1em
+		border-right: 1px solid fade-out($highlight-header-border,.5)
+		background: darken(#fdf6e3,10%)
+	.code
+		padding: 1em 1em 1em .25em
+figure.code figcaption
+	display: block
+	text-align: center
+	padding: .5em
+	border-radius: 5px 5px 0 0
+	text-shadow: 0 1px 0 rgba(255,255,255,.5)
+	background: $highlight-header-background
+	color: $highlight-header-color
+	border: 1px solid $highlight-header-border
+	a
+		float: right
+

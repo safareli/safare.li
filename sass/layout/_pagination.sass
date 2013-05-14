@@ -1,0 +1,19 @@
+.pagination
+	text-align: center
+	p
+		display: inline
+		&.previous
+			float: left
+		&.next
+			float: right
+		&.disabled
+			+disabled-link()
+	ul
+		padding: 0
+		display: inline
+		li
+			margin: .5em
+			display: inline
+			.current-page
+				+disabled-link()
+

@@ -1,0 +1,41 @@
+// max = 24em = 240px
+
+$footer-height : 20px
+// for background of body
+$primary-color: hsl(0, 0%, 90%) //hsl(242, 50%, 4%)//hsl(0, 0%, 8%) 
+// for background of footer and header 
+$secondary-color:  hsl(210, 40%, 50%)//hsl(30, 100%, 67%)//hsl(81, 76%, 62%)
+
+$text-color: hsl(90, 2%, 40%)
+
+$link-color: hsl(4, 98%, 67%)
+$link-color-hover: desaturate($link-color, 10%)
+$link-color-disabled: fade-out($link-color,.55)
+
+
+$content-color: de90saturate($link-color, 10%)
+$content-color-hover: desaturate($link-color, 20%)
+
+$footer-background: lighten($primary-color,5%)
+$footer-color: $secondary-color
+$footer-link-color: $link-color
+$footer-link-color-hover: adjust-color($link-color,$lightness:10%)
+
+$header-background: lighten($primary-color,5%)
+$header-color: $secondary-color
+$header-color-hover: adjust-color($secondary-color,$saturation:30%,$lightness:30%)
+
+$scroll-background: fade-out($secondary-color,.85)
+$scroll-thumb: fade-out($secondary-color,.7)
+$scroll-thumb-hover: fade-out($secondary-color,.2)
+
+$highlight-header-background: lighten($primary-color,5%)
+$highlight-header-color: $secondary-color
+$highlight-header-border: fade-out($secondary-color,.25)
+
+$highlight-scroll-background: $scroll-background
+$highlight-scroll-thumb: $scroll-thumb
+$scroll-thumb-hover: $scroll-thumb-hover
+
+$post-meta-color: $secondary-color
+$post-headings-color: darken($secondary-color,10%)

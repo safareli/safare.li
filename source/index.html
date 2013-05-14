@@ -1,0 +1,22 @@
+---
+title: Log
+layout: default
+class: page-log
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts  %}
+<article>
+    <header>
+        <a href="{{site.root}}{{ post.url }}">
+            <time datetime="{{ post.date  | date_to_xmlschema}}">{{ post.date  | date: "%d.%m.%Y" }}</time>
+            <h1>{{ post.title}}</h1>
+        </a>
+    </header>
+    <p>
+        {{ post.excerpt }}
+    </p>
+</article>
+{% endfor %}
+
+{% include pagination.html %}

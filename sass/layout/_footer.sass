@@ -1,0 +1,18 @@
+footer.main
+	+box-shadow( 0 -1px lighten($primary-color,10%),0 -2px fade-out($header-color,.3))
+	background-color: $footer-background
+	color: $footer-color
+	line-height: $footer-height
+	font-size: $footer-height/1.5
+	h6
+		overflow: hidden
+	a
+		+transition(color ease .3s)
+		color: $footer-link-color
+		&:hover
+			color: $footer-link-color-hover
+			text-decoration: none
+	.bubble
+		display: none
+	#source
+		display: none

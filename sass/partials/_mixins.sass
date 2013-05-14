@@ -1,0 +1,25 @@
+=user-select($type:none)
+	+experimental(user-select, unquote($type),-moz, -webkit, not -o,-ms, -khtml, official)
+
+=pointer-events($type: none)
+	+experimental(pointer-events, unquote($type),-moz, -webkit, not -o, not -ms, -khtml, official)
+
+=no-interact()
+	+pointer-events(none)
+	+user-select(none)
+
+=disabled-link()
+	+no-interact
+	color: $link-color-disabled
+	text-decoration: none
+
+@function black($opacity:1)
+	@return rgba(0,0,0,$opacity)
+
+@function white($opacity:1)
+	@return rgba(255,255,255,$opacity)
+=letterpress($opacity)
+	+text-shadow(white($opacity) 0 1px 0)
+
+=box-emboss($opacity, $opacity2)
+	+box-shadow(white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0) 

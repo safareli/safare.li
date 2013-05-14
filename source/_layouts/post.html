@@ -1,0 +1,27 @@
+---
+layout: default
+class: page-post
+---
+<article>
+    <header>
+        <h1>{{ page.title}}</h1>
+        <time datetime="{{ page.date  | date_to_xmlschema}}">{{ page.date  | date: "%d %B %Y" }}</time>
+    </header>
+    {{content}}
+    <footer>
+		<div class="pages-next-previous">
+			{% if page.previous.url or page.next.url%}
+	      		<div class="left">
+			      	{% if page.previous.url %}
+		        		<a href="{{site.root}}{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+			      	{% endif %}
+	      		</div>
+	      		<div class="right">
+			      	{% if page.next.url %}
+			        	<a  href="{{site.root}}{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+			      	{% endif %}
+	      		</div>
+	      	{% endif %}
+	    </div>
+    </footer>
+</article>
