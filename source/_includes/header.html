@@ -1,16 +1,21 @@
 <header class="main"><!-- header START -->
-    <img src="{{site.root}}/assets/img/profile.png" alt="my profile image">
+    <img src="{{site.root}}/assets/img/profile.jpg" alt="my profile image">
     <ul class="developer" data-text="developer" data-symbol="}">
         <li>Android</li>
         <li>web</li>
     </ul>
     <nav class="main">
-        <ul><!--
-         --><li class="active" ><a href="{{site.root}}/">log</a></li><!--
-         --><li ><a href="#">Work</a></li><!--
-         --><li ><a href="#">bMark</a></li><!--
-         --><li ><a href="#">TODO</a></li><!--
-     --></ul>
+
+        <ul>
+        {% for link in site.navigation %}
+            {% assign active = nil %}
+            {% assign pageurl = site.root | append:link.url %}
+            {% if page.url == pageurl or page.layout == link.layout %}
+                {% assign active = 'active' %}
+            {% endif %}
+            <li class="{{ active }}"><a href="{{pageurl}}">{{ link.text }}</a></li>
+        {% endfor %}
+        </ul>
     </nav>
     <ul class="social" data-befor="Check out my" data-after="links"><!--
      --><li><a href="#">facebook</a></li><!--

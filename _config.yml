@@ -11,6 +11,19 @@ url: "http://localhost"
 subscribe_rss: /atom.xml
 paginate: 10
 
+
+navigation:
+- text: Log
+  url: /
+  layout: post
+- text: Work
+  url: /work/
+- text: bMark
+  url: /bmark/
+- text: TODO
+  url: /todo/
+
+
 plugins: ./plugins
 source: ./source
 destination: ./public_html/

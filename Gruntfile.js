@@ -62,6 +62,13 @@ module.exports = function(grunt) {
                         return [lrSnippet, folderMount(connect, options.base)];
                     }
                 }
+            },
+            server: {
+                options: {
+                    base: DESTINATION,
+                    port: 80,
+                    keepalive: true
+                }
             }
         },
         regarde: {
@@ -81,7 +88,7 @@ module.exports = function(grunt) {
                         SOURCE+'*.*',
                         PLUGINS+'**/*.*',
                         '_config.yml'],
-                tasks: ['jekyll','livereload','notify:jekyll']
+                tasks: ['jekyll','livereload'/*,'notify:jekyll'*/]
             }
         },
         copy:{
@@ -89,7 +96,7 @@ module.exports = function(grunt) {
                 files:[
                     {expand: true, cwd:'source/', dest: DESTINATION+ROOT}
                 ],
-                tasks:['livereload','notify:copy']
+                tasks:['livereload'/*,'notify:copy'*/]
             }
         }
     });
@@ -120,14 +127,18 @@ module.exports = function(grunt) {
     grunt.registerTask('default', [
         'jekyll',
         'livereload-start',
-        'connect',
+        'connect:livereload',
         'notify:start',
         'regarde'
     ]);
-    grunt.registerTask('nn', [
+    grunt.registerTask('nj', [
         'livereload-start',
-        'connect',
-        'notify:start',
+        'connect:livereload',
+        // 'notify:start',
         'regarde'
+    ]);
+
+    grunt.registerTask('server', [
+        'connect:server'
     ]);
 };

@@ -5,14 +5,48 @@ footer.main
 	line-height: $footer-height
 	font-size: $footer-height/1.5
 	h6
-		overflow: hidden
+		padding-left: 1em
 	a
 		+transition(color ease .3s)
 		color: $footer-link-color
 		&:hover
 			color: $footer-link-color-hover
 			text-decoration: none
-	.bubble
-		display: none
-	#source
-		display: none
+/*
+.safareli,.source
+	-webkit-perspective: 800
+	-webkit-perspective-origin: 50% 50%
+	&:hover .bubble
+		+transform(rotate(0))
+		opacity: 0.9
+		bottom: 22px
+		right: 5em
+.bubble
+	+pointer-events(none)
+	display: table
+	width: 10em
+	height: 10em
+	line-height: 2em
+	padding: 1em
+	font-weight: 400
+	font-size: 3em
+	font-style: italic
+	text-align: center
+	border: 5px dashed
+	color:  $link-color
+	background: fade-out($secondary-color,0.25)
+	position: fixed
+	bottom: 22px
+	right: -14em
+	opacity: 0
+	+border-radius(50% )
+	+text-shadow(1em 1em 1em rgba(0, 0, 0, 0.1) )
+	+box-shadow(0em 3em 8em rgba(0,0,0,0.1) )
+	+transform(rotate(360deg*1))
+	+transition(all .3s ease-in-out )
+	.bubble-text
+		font-size: 1.4em
+		display: table-cell
+		vertical-align: middle
+		text-align: center
+*/

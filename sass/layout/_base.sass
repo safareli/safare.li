@@ -14,6 +14,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif
 	font-size: 1em
 	background-color: $primary-color
+
 	+screen(240px,319px)
 		font-size: 1.1em 
 	+screen(320px,479px) 
@@ -22,6 +23,8 @@ body
 		font-size: 1.3em 
 	+min-screen(768px)
 		font-size: 1.4em 
+		.onlydesktop
+			display: initial
 html,body,
 	height: 100%
 .wrapper
@@ -31,7 +34,8 @@ html,body,
 	margin: 0 auto  -#{$footer-height}
 footer,.footer-push
 	height: $footer-height
-
+.onlydesktop
+	display: none
 a
 	color: $link-color
 	text-decoration: underline
